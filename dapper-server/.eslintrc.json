@@ -1,0 +1,18 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true
+  },
+  "ignorePatterns": ["node_modules/", "dist/"],
+  "extends": [
+    "@typescript-eslint",
+    "react",
+    "prettier",
+    "react-hooks"
+  ],
+  "rules": {
+    "prettier/prettier": "error",
+    "react-hooks/rules-of-hooks": "error"
+  }
+}

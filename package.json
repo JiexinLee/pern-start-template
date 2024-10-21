@@ -1,0 +1,11 @@
+{
+  "name": "dapper-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "client": "cd client && npm run dev",
+    "server": "cd dapper-server && npm run start",
+    "dev": "npm run client & npm run server"
+  }
+}
